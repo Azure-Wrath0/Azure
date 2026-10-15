@@ -1,0 +1,33 @@
+/* Custom smooth scrolling & styling tweaks */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #030712;
+    color: #f1f5f9;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Navbar glassmorphism effect when scrolled */
+header.scrolled {
+    background-color: rgba(3, 7, 18, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(30, 41, 59, 0.5);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #030712;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e1b4b;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed;
+}
